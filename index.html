@@ -22,6 +22,7 @@
 		============================================= -->
 		<link rel="stylesheet" href="css/linearicons.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/flaticon.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/magnific-popup.css">
 		<link rel="stylesheet" href="css/nice-select.css">							
@@ -29,7 +30,28 @@
 		<link rel="stylesheet" href="css/jquery-ui.css">			
 		<link rel="stylesheet" href="css/owl.carousel.css">
 		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/flaticon.css">
+		<style>
+			.single-service {
+				width: 100%;
+			}
+			.service-icon {
+				width: 100%;
+				height: 200px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+				margin-bottom: 20px;
+				border-radius: 10px;
+			}
+			.service-icon span {
+				font-size: 90px;
+				color: #00d4ff;
+			}
+			.service-body {
+				padding: 10px;
+			}
+		</style>
 	</head>
 	<body>	
 		  <header id="header" id="home">
@@ -60,6 +82,21 @@
 			          <li><a href="about.html">About</a></li>
 			          <li><a href="services.html">Services</a></li>
 			          <li><a href="opening-hour.html">Opening Hour </a></li>
+			          <li class="menu-has-children"><a href="">Blog</a>
+			            <ul>
+			              <li><a href="blog-home.html">Blog Home</a></li>
+			              <li><a href="blog-single.html">Blog Single</a></li>
+				          <li class="menu-has-children"><a href="">Level 2</a>
+				            <ul>
+				              <li><a href="#">Item One</a></li>
+				              <li><a href="#">Item Two</a></li>
+				            </ul>
+				          </li>					              
+			            </ul>
+			          </li>	
+			          <li><a href="pricing.html">Pricing</a></li>				          	          
+			          <li><a href="elements.html">Elements</a></li>				          	          
+			          <li><a href="contact.html">Contact</a></li>
 			        </ul>
 			      </nav><!-- #nav-menu-container -->
 		      	<div class="menu-social-icons">
@@ -121,7 +158,7 @@
 		<!-- End open-hour Area -->
 		
 		
-			<!-- Start service Area -->
+		<!-- Start service Area -->
 		<section class="service-area section-gap">
 			<div class="container">
 				<div class="row d-flex justify-content-center">
@@ -215,7 +252,7 @@
 			</div>	
 		</section>
 		<!-- End service Area -->
-		
+
 		<!-- Start home-about Area -->
 		<section class="home-about-area section-gap relative">			
 			<div class="container">
